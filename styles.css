@@ -16,12 +16,12 @@ h2 {
 /* links */
 a:link {
   color: black;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 a:hover {
     color: #C99737;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 a:visited {
@@ -37,11 +37,11 @@ a:visited {
 
 #text-dark {
     font-family: 'Courier New', courier;
-    background-color: #e9e9e9;
+    background-color:rgb(238, 226, 206);
+    color: black !important;
     border: ridge 3px #C99737;
     color: black;
     font-size: 1.1em;
-    font-weight: bold;
     padding: 0.2em;
     justify-content: center;
 }
@@ -58,7 +58,8 @@ a:visited {
 
 #button {
     font-family: 'Courier New', Courier, monospace;
-    background-color: white;
+    background-color: rgb(223, 200, 157);
+    color: black !important;
     font-size: 1em;
     border: ridge 3px #C99737;
     border-radius: 25px;
@@ -73,7 +74,8 @@ a:visited {
 }
 
 #link-bar {
-    background-color: #e9e9e9;
+    background-color: rgb(238, 226, 206);
+    color: black !important;
     border: ridge 3px #C99737;
     font-family: 'Courier New', Courier, monospace;
     color: black;
