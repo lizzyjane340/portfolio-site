@@ -1,0 +1,99 @@
+body {
+    background: url('portfolio_site/images/railshot.jpeg') no-repeat center center fixed;
+    background-position: fixed;
+    background-size: cover;
+    font-family: courier;
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+/* links */
+a:link {
+  color: #C99737;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+a:visited {
+    color: #C99737;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+a:hover {
+  color: #B7A5AF;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+#main-block {
+    background-color: black;
+    padding: 1em;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 3em;
+}
+
+#text-dark {
+    font-family: 'Courier New', courier;
+    font-size: 30px;
+    font-weight: normal !important;
+    justify-content: center;
+}
+
+#text-light {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    opacity: 2;
+    font-size: 1rem;
+    font-weight: normal !important;
+    justify-content: center;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+
+#button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000000;
+    width: 150px;
+    height: 50px;
+    margin-top: 0.5rem;
+}
+
+#link-bar {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#content-div {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: normal !important;
+    justify-content: center;
+    border: ridge 3px #C99737;
+    padding: 1rem;
+}
+
+#shot {
+    margin-bottom: 0.3em;
+}
+
+#text-row {
+    padding: 30px;
+}
+
+#index {
+    opacity: 0.85;
+}
+
+#projects {
+    opacity: 0.85;
+}
+
