@@ -21,7 +21,7 @@ The background image may not load correctly from local file storage - this is be
 
 # Visit The Site
 
-This site is hosted at [TODO:HOST](https://host)
+This site is hosted at [https://lizzyjane340.github.io/portfolio-site/](https://lizzyjane340.github.io/portfolio-site/)
 
 # Screenshots
 
