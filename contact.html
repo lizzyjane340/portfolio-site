@@ -9,24 +9,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
         <link href="styles.css" rel="stylesheet">
-        <!--script defer src=""-->
+        <script type="text/javascript" src="script.js" defer></script>
         <meta name="viewport" content="width=device_width, initial-scale=1.0">
 
         <title>Lizzy Jane Ferris</title>
     </head>
-
-    <script>
-
-/* functions to change button colors */
-    function myHover(elem) {
-        elem.style.backgroundColor = "#CBC5C8";
-    }
-
-    function myLeave(elem) {
-        elem.style.backgroundColor = "#FFFFFF"
-    }
-
-    </script>
 
 <body class="h-100" id="body">
 
@@ -50,18 +37,18 @@
                 <form action="http://formsubmit.co/lizzyjane0121@protonmail.com" method="POST"/>
                 <div class="form-group">          
                     <label for="emailInput">Your Email address</label>
-                    <input type="email" name="email" class="form-control" id="emailInput">
+                    <input type="email" name="email" class="form-control" id="emailInput" minlength=15 maxlength=75 required>
                   </div>
                   <div class="form-group">
                     <label for="messageInput">Message</label>
-                    <textarea class="form-control" name="text" id="messageInput" rows="3"></textarea>
+                    <textarea class="form-control" name="text" id="messageInput" rows="3" minlength=10 maxlength=1500 required></textarea>
                   </div>
 <!--TODO add a github pages url for thanks page-->
                   <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-                    <button type="submit" class="btn btn-secondary" name="submit" value="submit" id="submit">Submit</button>
-                </div>
+                    <button type="submit" class="btn btn-sm btn-secondary" name="submit" value="submit" id="submit">Submit</button>
+            </div>
         </div>
-        <br>
+    
         <div class ="row justify-content-center align-items-center">
 <!-- buttons for page navigation-->
             <button type="button" id="button" onclick="location.href = 'blog.html';" onmouseover=myHover(this) onmouseleave=myLeave(this)>
