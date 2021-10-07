@@ -1,11 +1,3 @@
-/* functions to change button colors */
-        function myHover(elem) {
-            elem.style.backgroundColor = "#CBC5C8";
-        }
-
-        function myLeave(elem) {
-            elem.style.backgroundColor = "#FFFFFF";
-        }
 
 // input length validation for forms
 const emailInput = document.getElementById('emailInput');
