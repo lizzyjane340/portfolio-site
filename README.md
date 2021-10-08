@@ -8,7 +8,7 @@ point of reference for anybody with an interest in my work.
 
 The site is made using **HTML5**, **CSS3**, **Bootstrap 5 CDN** and **Javascript**.
 
-I have used the [Formsubmit](https://formsubmit.co/) service to create a contact form, to remove
+I have used [formspree.io](https://formspree.io) to create a contact form, to remove
 the need to build a back end for what is (and should be) a static website.
 
 # Installation
@@ -25,7 +25,7 @@ This site is hosted at [https://lizzyjane340.github.io/portfolio-site/](https://
 
 # Screenshots
 
-//TODO
+<img width="1307" alt="E5DAD580-0655-49D4-A560-3C18466649D3" src="https://user-images.githubusercontent.com/75592024/136633471-e84dcb1e-0283-47c3-8c3a-833f11ce668c.png">
 
 
 
