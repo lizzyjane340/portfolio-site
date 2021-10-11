@@ -94,6 +94,14 @@ a:visited {
     height: 100%;
 }
 
+#library-link {
+    background-color: antiquewhite !important;
+    font-size: 1.3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding: 0.2em;
+}
+
 #shot {
     margin-bottom: 0.3em;
     border: ridge 3px gray;
