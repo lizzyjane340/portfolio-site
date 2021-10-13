@@ -89,7 +89,6 @@ a:visited {
     color: white;
     font-size: 0.9em;
     font-weight: normal !important;
-    justify-content: center;
     border: ridge 3px gray;
     height: 100%;
 }
