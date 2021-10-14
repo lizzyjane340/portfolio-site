@@ -39,22 +39,12 @@ ul {
     padding: 0;
 }
 
-/* links */
 a:link {
-   color: white;
-   font-weight: normal;
-   text-decoration: none;
+    color: white;
 }
 
 a:hover {
-    color: #C99737;
-    font-weight: normal;
-}
-
-a:visited {
-   color: white;
-   font-weight: normal;
-   text-decoration: none;
+    color: rgb(212, 170, 92);
 }
 
 #main-block {
@@ -113,17 +103,30 @@ a:visited {
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
-    color: white;
+    color:rgb(238, 226, 206);
     font-size: 0.9em;
     font-weight: normal !important;
     border: ridge 3px gray;
     text-align: left;
 }
 
+#certs-div {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+    color:rgb(238, 226, 206);
+    font-size: 0.9em;
+    font-weight: normal !important;
+    border: ridge 3px gray;
+}
+
 #project-desc {
     float: right;
     text-align: left;
     margin-left: 0.5em;
+}
+
+#form {
+    text-align: center;
 }
 
 #shot {
@@ -135,6 +138,8 @@ a:visited {
     margin: 0.5em;
 }
 
-#submit {
-    margin-left: 14em;
+#index-icon {
+    margin-left: 0.7em;
+    margin-right: 0.5em;
 }
+
