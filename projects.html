@@ -26,17 +26,17 @@
 
 
 <body id="body">
-    <div class="container-fluid col-md-12" id="main-block">
+    <div class="container-fluid col-md-10" id="main-block">
 
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" id="title">
             <img src="images/head_shot2.jpeg" class="img-fluid rounded-circle" id="shot" alt="Photo of Lizzy Jane Ferris" width=100 height=100>
             <h1 id="text-dark" onclick="location.href = 'index.html';">Lizzy Jane Ferris</h1><br>
         </div> 
 
-        <div class="row justify-content-center align-items-center text-center">  
-                <a href="https://www.linkedin.com/in/lizzy-jane-ferris-5bb057202/" target="_blank"><img src="images/LinkedIn-Blue-40.png" class="img-fluid" id="linkedinLogo" alt="Linkedin Link Logo"/></a>
-                <a href="http://www.github.com/lizzyjane340" target="_blank"><img src="images/GitHub_Logo.png" class="img-fluid" id="githubLogo" alt="Github Link Logo"/></a>
-                <a href="https://www.fiverr.com/share/0dPdQr" target="_blank"><img src="images/icons8-fiverr-100.png" class="img-fluid" id="fiverrLogo" alt="Fiverr Gig Link Logo"/></a>
+        <div class="row justify-content-center align-items-center text-center" id="title2">  
+            <a href="https://www.linkedin.com/in/lizzy-jane-ferris-5bb057202/" target="_blank"><img src="images/LinkedIn-Blue-40.png" class="img-fluid" id="linkedinLogo" alt="Linkedin Link Logo"/></a>
+            <a href="http://www.github.com/lizzyjane340" target="_blank"><img src="images/GitHub_Logo.png" class="img-fluid" id="githubLogo" alt="Github Link Logo"/></a>
+            <a href="https://www.fiverr.com/share/0dPdQr" target="_blank"><img src="images/icons8-fiverr-100.png" class="img-fluid" id="fiverrLogo" alt="Fiverr Gig Link Logo"/></a>
         </div>
 
         <div class ="row justify-content-center align-items-center">
@@ -50,7 +50,7 @@
         </div>
 
         <div class="row justify-content-center align-content-center text-center">
-            <div class="container-fluid col-md-8 justify-content-center align-content-center" id="content-div"><br><br>
+            <div class="container-fluid col-md-10 justify-content-center align-content-center" id="content-div"><br><br>
                 <div class="container-fluid col-md-6" id="project-desc">
                     <h4>Macha Library</h4>
                     <p>Python Flask, Bootstrap 5, HTML5, CSS3, SQLite3</p>
@@ -69,8 +69,12 @@
                             <li>Responsive design</li>
                         </ul></p>     
                 </div>
+<!--iframe macha library site-->
                 <div class="iframe-container">
-                    <iframe width="400" height="1500" src="https://machalibrary.pythonanywhere.com" title="Macha Library Web Application"></iframe>
+                    <iframe width="400" height="1500" src="https://machalibrary.pythonanywhere.com" title="Macha Library Web Application" allowfullscreen sandbox>
+<!--fallback image if iframe not loaded-->  
+                <img src="images/machalibrary4.jpeg" class="img-fluid" alt="Macha Library mobile screenshot" id="iframe-fallback-macha"/>
+                    </iframe>
                 </div>
             </div>
             <br><br>
