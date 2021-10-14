@@ -50,29 +50,30 @@ ul {
 
 #title {
     background-image: linear-gradient(to left,whitesmoke, antiquewhite);
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.3em;
+}
+
+
+#shot {
+    width: 15%;
+    margin-right: 0.3em;
+    border: ridge 3px gray;
 }
 
 #text-dark {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size: 2em;
     color: black;
     margin-left: 0.5em;
     margin-top: 0.5em;
+    height: 1em;
 }
 
-#title2 {
-    background-image: linear-gradient(to left,whitesmoke, antiquewhite);
-    height: 5%;
-    width: 30%;
-    margin-left: 35%;
-    margin-bottom: 0.2em;
-}
 
 #linkedinLogo {
     width: 4em;
+    margin-left: 2em;
 }
 
 #githubLogo {
@@ -111,16 +112,15 @@ a:hover {
     width: 8em;
     height: 2.5em;
     margin: 0.2em;
-    margin-bottom: 0.4em;
+    margin-bottom: 1em;
 }
 
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: normal !important;
-    border: ridge 3px gray;
     text-align: left;
 }
 
@@ -128,9 +128,8 @@ a:hover {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: normal !important;
-    border: ridge 3px gray;
 }
 
 #project-desc {
@@ -141,11 +140,6 @@ a:hover {
 
 #form {
     text-align: center;
-}
-
-#shot {
-    margin-bottom: 0.3em;
-    border: ridge 3px gray;
 }
 
 #project-icon {
