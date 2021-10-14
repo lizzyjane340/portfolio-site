@@ -22,6 +22,15 @@ html, body {
     border: 0;
 }
 
+#iframe-fallback-macha {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 80vh;
+    border: 0;
+}
+
 body {
     background-image: url('https://lizzyjane340.github.io/portfolio-site/images/railshot.jpeg');
     background-size: cover;
@@ -39,12 +48,11 @@ ul {
     padding: 0;
 }
 
-a:link {
-    color: white;
-}
-
-a:hover {
-    color: rgb(212, 170, 92);
+#title {
+    background-image: linear-gradient(to left,whitesmoke, antiquewhite);
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 0.2em;
 }
 
 #text-dark {
@@ -53,6 +61,36 @@ a:hover {
     color: black;
     margin-left: 0.5em;
     margin-top: 0.5em;
+}
+
+#title2 {
+    background-image: linear-gradient(to left,whitesmoke, antiquewhite);
+    height: 5%;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 0.2em;
+}
+
+#linkedinLogo {
+    width: 4em;
+}
+
+#githubLogo {
+    width: 5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#fiverrLogo {
+    width: 4em;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: rgb(212, 170, 92);
 }
 
 #main-block {
@@ -73,11 +111,6 @@ a:hover {
     width: 8em;
     height: 2.5em;
     margin: 0.2em;
-    margin-bottom: 0.4em;
-}
-
-#link-bar {
-    color: black !important; 
     margin-bottom: 0.4em;
 }
 
@@ -117,14 +150,6 @@ a:hover {
 
 #project-icon {
     margin: 0.5em;
-}
-
-#linkedinLogo, #githubLogo {
-    width: 6em;
-}
-
-#fiverrLogo {
-    width: 5em;
 }
 
 #index-icon {
