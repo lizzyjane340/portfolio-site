@@ -30,8 +30,8 @@
 
 <!--name title, social links-->
         <div class="row justify-content-center align-items-center">
-            <div class="container-fluid col-md-6" id="title">
-                <p id="text-dark" onclick="location.href = 'index.html';"><img src="images/head_shot2.jpeg" class="img-fluid rounded-circle" id="shot" alt="Photo of Lizzy Jane Ferris">Lizzy Jane Ferris</p>
+            <div class="container-fluid col-md-8" id="title">
+                <p id="text-dark" onclick="location.href = 'index.html';"><img src="images/head_shot2.jpeg" class="img-fluid rounded-circle" id="shot" alt="Photo of Lizzy Jane Ferris">Lizzy Jane Ferris</p><br>
                 <a href="https://www.linkedin.com/in/lizzy-jane-ferris-5bb057202/" target="_blank"><img src="images/LinkedIn-Blue-40.png" class="img-fluid" id="linkedinLogo" alt="Linkedin Link Logo"/></a>
                 <a href="http://www.github.com/lizzyjane340" target="_blank"><img src="images/GitHub_Logo.png" class="img-fluid" id="githubLogo" alt="Github Link Logo"/></a>
                 <a href="https://www.fiverr.com/share/0dPdQr" target="_blank"><img src="images/icons8-fiverr-100.png" class="img-fluid" id="fiverrLogo" alt="Fiverr Gig Link Logo"/></a>
@@ -49,12 +49,21 @@
         </div>
 
         <div class="row justify-content-center align-content-center text-center">
-            <div class="container-fluid col-md-10 justify-content-center align-content-center" id="content-div"><br><br>
-                <div class="container-fluid col-md-6" id="project-desc">
+            <div class="container-fluid col-md-12 justify-content-center align-content-center" id="content-div"><br><br>
+                <div class="container-fluid col-md-12" id="project-desc">
                     <h4>Macha Library</h4>
                     <p>Python Flask, Bootstrap 5, HTML5, CSS3, SQLite3</p>
                     <p><img src="images/GitHub-Mark-Light-120px-plus.png" class="img-fluid" id="project-icon" height=30 width=30/><a href="https://github.com/lizzyjane340/macha-library" target="_blank">https://github.com/lizzyjane340/macha-library</a></p>
-                    <p><img src="images/star2.ico" class="img-fluid" id="project-icon" height=30 width=30/>Full stack web application<br></p>
+
+                    <!--iframe macha library site-->
+                <div class="iframe-container col-md-12 justify-content-center align-items-center">
+                    <iframe class="responsive-iframe" src="https://machalibrary.pythonanywhere.com" title="Macha Library Web Application" allowfullscreen sandbox/>
+<!--fallback image if iframe not loaded-->  
+                <img src="images/machalibrary4.jpeg" class="img-fluid" alt="Macha Library mobile screenshot" id="iframe-fallback-macha"/>
+                    </iframe>
+                </div>
+
+                    <br><p><img src="images/star2.ico" class="img-fluid" id="project-icon" height=30 width=30/>Full stack web application<br></p>
                         <p><img src="images/outline_link_white_24dp.png" class="img-fluid" id="project-icon" height=30 width=30/><a href="https://machalibrary.pythonanywhere.com" target="_blank">https://machalibrary.pythonanywhere.com</a></p> 
                         <p><img src="images/outline_keyboard_alt_white_24dp.png" class="img-fluid" id="project-icon" height=30 width=30/>User Features:</p>
                         <ul>
@@ -67,13 +76,6 @@
                             <li>Darkmode.js widget</li>
                             <li>Responsive design</li>
                         </ul></p>     
-                </div>
-<!--iframe macha library site-->
-                <div class="iframe-container">
-                    <iframe width="400" height="1500" src="https://machalibrary.pythonanywhere.com" title="Macha Library Web Application" allowfullscreen sandbox>
-<!--fallback image if iframe not loaded-->  
-                <img src="images/machalibrary4.jpeg" class="img-fluid" alt="Macha Library mobile screenshot" id="iframe-fallback-macha"/>
-                    </iframe>
                 </div>
             </div>
             <br><br>
