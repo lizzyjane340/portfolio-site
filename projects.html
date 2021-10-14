@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <!--base href=""-->
+<!--base href=""-->
         <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -26,7 +26,7 @@
 
 
 <body id="body">
-    <div class="container-fluid col-md-10" id="main-block">
+    <div class="container-fluid col-md-12" id="main-block">
 
 <!--name title, social links-->
         <div class="row justify-content-center align-items-center">
@@ -48,40 +48,47 @@
             Home</button>
         </div>
 
+        <div class="container-fluid col-md-12 justify-content-center align-content-center" id="content-div"><br><br>
+            <div class="container-fluid col-md-12" id="project-desc">      
+            
+<!--iframe macha library site-->
         <div class="row justify-content-center align-content-center text-center">
-            <div class="container-fluid col-md-12 justify-content-center align-content-center" id="content-div"><br><br>
-                <div class="container-fluid col-md-12" id="project-desc">
-                    <h4>Macha Library</h4>
-                    <p>Python Flask, Bootstrap 5, HTML5, CSS3, SQLite3</p>
-                    <p><img src="images/GitHub-Mark-Light-120px-plus.png" class="img-fluid" id="project-icon" height=30 width=30/><a href="https://github.com/lizzyjane340/macha-library" target="_blank">https://github.com/lizzyjane340/macha-library</a></p>
 
-                    <!--iframe macha library site-->
-                <div class="iframe-container col-md-12 justify-content-center align-items-center">
-                    <iframe class="responsive-iframe" src="https://machalibrary.pythonanywhere.com" title="Macha Library Web Application" allowfullscreen sandbox/>
-<!--fallback image if iframe not loaded-->  
-                <img src="images/machalibrary4.jpeg" class="img-fluid" alt="Macha Library mobile screenshot" id="iframe-fallback-macha"/>
-                    </iframe>
-                </div>
+            <div class="container-fluid col-md-1"><span id="text-dark">dgjhfgejkshkfrjkwerfaekwfraw</span></div>
 
-                    <br><p><img src="images/star2.ico" class="img-fluid" id="project-icon" height=30 width=30/>Full stack web application<br></p>
-                        <p><img src="images/outline_link_white_24dp.png" class="img-fluid" id="project-icon" height=30 width=30/><a href="https://machalibrary.pythonanywhere.com" target="_blank">https://machalibrary.pythonanywhere.com</a></p> 
-                        <p><img src="images/outline_keyboard_alt_white_24dp.png" class="img-fluid" id="project-icon" height=30 width=30/>User Features:</p>
-                        <ul>
-                            <li>User sessions</li>
-                            <li>SQLite3 database</li>
-                            <li>Contribution form</li>
-                            <li>Image upload facility</li>
-                            <li>Text based search</li>
-                            <li>Search by category</li>
-                            <li>Darkmode.js widget</li>
-                            <li>Responsive design</li>
-                        </ul></p>     
-                </div>
+            <div class="container-fluid col-md-4 justify-content-center align-items-center">
+                <h4>Macha Library</h4>
+                <p>Python Flask, Bootstrap 5, HTML5, CSS3, SQLite3</p>
+                <p><img src="images/GitHub-Mark-Light-120px-plus.png" class="img-fluid" id="project-icon" height=30 width=30/><a href="https://github.com/lizzyjane340/macha-library" target="_blank">https://github.com/lizzyjane340/macha-library</a></p>
+                <br><p><img src="images/star2.ico" class="img-fluid" id="project-icon" height=30 width=30/>Full stack web application<br></p>
+                <p><img src="images/outline_link_white_24dp.png" class="img-fluid" id="project-icon" height=30 width=30/><a href="https://machalibrary.pythonanywhere.com" target="_blank">https://machalibrary.pythonanywhere.com</a></p>
+                <p><img src="images/outline_keyboard_alt_white_24dp.png" class="img-fluid" id="project-icon" height=30 width=30/>User Features:</p>
+                <ul>
+                    <li>User sessions</li>
+                    <li>SQLite3 database</li>
+                    <li>Contribution form</li>
+                    <li>Image upload facility</li>
+                    <li>Text based search</li>
+                    <li>Search by category</li>
+                    <li>Darkmode.js widget</li>
+                    <li>Responsive design</li>
+                </ul></p><br><br>
             </div>
-            <br><br>
+
+            <div class="col-md-4 embed-responsive embed-responsive-16by9" id="iframe-container">    
+                <br>
+                <iframe class="embed-responsive-item" src="https://machalibrary.pythonanywhere.com" title="Macha Library Web Application" allowfullscreen sandbox/>
+<!--fallback image if iframe not loaded-->  
+                    <img src="images/machalibrary4.jpeg" class="img-fluid" alt="Macha Library mobile screenshot" id="iframe-fallback-macha"/>
+                </iframe>
+            </div>
+
+                <div class="container-fluid col-md-1"><span id="text-dark">dgjhfgejkshkfrjkwerfaekwfraw</span></div>
+
+            </div>
         </div>
-        
-     </div>
+    </div>         
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
