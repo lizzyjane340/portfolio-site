@@ -49,13 +49,22 @@ ul {
     padding: 0;
 }
 
+#title-div {
+    margin-top: 1em;
+    height: 20em;
+}
+
 #title {
     background-image: linear-gradient(to left, silver, black);
-    border: 5px ridge silver;
     color: black;
     margin-bottom: 0.3em;
     font-size: 1.2em;
     height: 6em;
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 #title2 {
@@ -63,9 +72,8 @@ ul {
     margin-bottom: 1.5em;
 }
 
-
 #shot {
-    width: 10%;
+    width: 2em;
     margin-right: 0.3em;
     border: ridge 3px gray;
 }
@@ -82,18 +90,18 @@ ul {
 
 
 #linkedinLogo {
-    width: 4em;
+    width: 8vw;
     margin-left: 2em;
 }
 
 #githubLogo {
-    width: 5em;
+    width: 8vw;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
 
 #fiverrLogo {
-    width: 4em;
+    width: 8vw;
 }
 
 a:link {
@@ -105,6 +113,8 @@ a:hover {
 }
 
 #main-block {
+    border: 3px solid silver;
+    font-size: 1em;
     padding-top: 1em;
     text-align: center;
 }
@@ -126,15 +136,18 @@ a:hover {
 
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
+    border: 3px solid silver;
     background-color: black;
     color: white;
     font-size: 0.8em;
     font-weight: normal !important;
     text-align: center;
+    padding: 0.5em;
 }
 
 #certs-div {
     font-family: 'Source Sans Pro', sans-serif;
+    border: 3px solid silver;
     background-color: black;
     color: white;
     font-size: 0.8em;
@@ -144,13 +157,16 @@ a:hover {
 
 #project-desc {
     text-align: center;
+    padding: 0.5em;
 }
 
 #form {
     font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid silver;
     background-color: black;
-    font-size: 0.8em;
+    font-size: 1em;
     color: white;
+    padding: 0.5em;
     text-align: center;
 }
 
