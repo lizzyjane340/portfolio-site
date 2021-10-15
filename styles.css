@@ -6,6 +6,10 @@ html, body {
     overflow: auto;
 }
 
+a {
+    font-size: 0.9em;
+}
+
 /* TODO add media query for iframe height ONLY */
 
 #iframe-container {
@@ -51,8 +55,9 @@ ul {
 }
 
 #title-div {
+    padding: 0.5em;
     margin-top: 1em;
-    height: 20em;
+    height: 24em;
 }
 
 #title {
@@ -91,18 +96,18 @@ a:hover {
 
 
 #linkedinLogo {
-    width: 8vw;
+    width: 9em;
     margin-left: 2em;
 }
 
 #githubLogo {
-    width: 8vw;
+    width: 8em;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
 
 #fiverrLogo {
-    width: 8vw;
+    width: 9em;
 }
 
 a:link {
@@ -178,10 +183,12 @@ a:hover {
 }
 
 #project-icon {
+    width: 1.5em;
     margin: 0.5em;
 }
 
 #index-icon {
+    width: 0.6em;
     margin-left: 0.7em;
     margin-right: 0.5em;
 }
