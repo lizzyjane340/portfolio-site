@@ -15,13 +15,18 @@ a {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
-    margin-top: 1em;
-    height: 70vh;
+    margin-top: 1.5em;
+    height: 80vh;
+    width: 100%;
 }
 
 iframe {
-    margin-top: 1em;
-    height: 90vh !important;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 #iframe-fallback-macha {
