@@ -141,22 +141,8 @@ a:hover {
     padding: 0.5em;
 }
 
-#certs-div {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: black;
-    color: white;
-    font-size: 0.8em;
-    font-weight: normal !important;
-    padding: 1em;
-}
-
 #project-desc {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: black;
-    color: white;
-    font-size: 0.8em;
-    font-weight: normal !important;
-    text-align: center;
+    padding-right: 1em;
 }
 
 #sudoku-screenshot {
