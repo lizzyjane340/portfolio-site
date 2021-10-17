@@ -93,18 +93,18 @@ a:hover {
 
 
 #linkedinLogo {
-    width: 9em;
+    width: 7em;
     margin-left: 2em;
 }
 
 #githubLogo {
-    width: 8em;
+    width: 6em;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
 
 #fiverrLogo {
-    width: 9em;
+    width: 7em;
 }
 
 a:link {
@@ -119,6 +119,8 @@ a:hover {
     font-size: 1em;
     padding-top: 1em;
     text-align: center;
+    margin-top: 3em;
+    margin-bottom: 4em;
 }
 
 #button {
@@ -144,10 +146,12 @@ a:hover {
     font-weight: normal !important;
     text-align: center;
     padding: 0.5em;
+    padding-bottom: 3em;
 }
 
 #project-desc {
     padding-right: 1em;
+    margin-top: 1em;
 }
 
 #sudoku-screenshot {
