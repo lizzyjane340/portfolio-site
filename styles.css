@@ -68,9 +68,11 @@ a:hover {
     cursor: pointer;
 }
 
+a { color: rgb(212, 170, 92);}
+
 #title2 {
     background: #96BEB4;
-    border: solid 2px #96BEB4;;
+    border: solid 2px rgb(212, 170, 92);
     padding: 1rem;
     margin-bottom: 1.5em;
     border-radius: 10px;
@@ -80,8 +82,7 @@ a:hover {
 #githubLogo, #linkedinLogo {
     width: 7em;
     margin-left: 0.5em;
-    margin-right: 0.5em;
-    
+    margin-right: 0.5em;  
 }
 
 h1 { 
@@ -89,16 +90,10 @@ h1 {
     font-size: 4em;
 }
 
-a { color: #96BEB4;}
-
 #shot {
     width: 2em;
     margin-right: 0.3em;
-    border: solid 2px #96BEB4;;
-}
-
-a:link {
-    color: silver;
+    border: solid 1px rgb(212, 170, 92);
 }
 
 a:hover {
@@ -115,10 +110,11 @@ a:hover {
 
 #button {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: silver;
+    background-color: #BEB1C0;
     color: black;
     font-size: 1.1em;
-    border: solid 2px rgb(212, 170, 92);
+    font-weight: bold;
+    border: solid 2px #96BEB4;
     border-radius: 10px;
     text-align: center;
     width: 8em;
@@ -153,8 +149,8 @@ a:hover {
 }
 
 #sudoku-screenshot {
-    height: 12em;
-    width: 35em;
+    height: 30%;
+    width: 100%;
 }
 
 #form {
