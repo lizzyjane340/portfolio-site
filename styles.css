@@ -10,6 +10,11 @@ a {
     font-size: 0.9em;
 }
 
+.cert {
+    border: solid 2px gray;
+    border-radius: 5px;
+}
+
 /* TODO add media query for iframe height ONLY */
 #iframe-container {
     position: relative;
@@ -71,8 +76,9 @@ a:hover {
 }
 
 #title2 {
-    background-image: linear-gradient(to left, silver, black);
+    background-image: linear-gradient(to left, whitesmoke, black);
     margin-bottom: 1.5em;
+    border-radius: 10px;
 }
 
 #shot {
@@ -129,9 +135,8 @@ a:hover {
     color: black !important;
     font-size: 1.1em;
     border: solid 3px gray;
-    border-radius: 25px;
+    border-radius: 10px;
     text-align: center;
-    color: #000000;
     width: 8em;
     height: 2.5em;
     margin: 0.2em;
@@ -141,6 +146,7 @@ a:hover {
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
+    border-radius: 10px;
     color: white;
     font-size: 0.8em;
     font-weight: normal !important;
@@ -164,11 +170,26 @@ a:hover {
 #form {
     font-family: 'Source Sans Pro', sans-serif;
     border: 1px solid silver;
-    background-color: black;
-    font-size: 1em;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, silver, black);
     color: white;
+    font-size: 1em;
     padding: 1em;
     text-align: center;
+}
+
+#submit {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: silver;
+    color: black !important;
+    font-size: 0.8em;
+    border: solid 3px gray;
+    border-radius: 10px;
+    text-align: center;
+    width: 5em;
+    height: 2.5em;
+    margin: 0.1em;
+    margin-bottom: 0.5em;
 }
 
 #project-icon {
