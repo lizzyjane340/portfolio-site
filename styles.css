@@ -135,7 +135,7 @@ a:hover {
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
-    border: solid 2px #7dad9f;
+    border: solid 1px rgb(212, 170, 92);
     border-radius: 10px;
     color: white;
     font-size: 0.8em;
@@ -163,7 +163,7 @@ a:hover {
 
 #form {
     font-family: 'Source Sans Pro', sans-serif;
-    border: solid 2px #7dad9f;
+    border: solid 1px rgb(212, 170, 92);
     border-radius: 10px;
     background: #a0b9b2;
     color: black;
@@ -182,7 +182,7 @@ a:hover {
     background-color: white;
     color: black;
     font-size: 0.9em;
-    border: solid 1px black;
+    border: solid 1px rgb(212, 170, 92);
     border-radius: 10px;
     text-align: center;
     width: 5em;
