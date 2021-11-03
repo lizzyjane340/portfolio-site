@@ -71,9 +71,17 @@ a:hover {
 #title2 {
     background: #a0b9b2;
     border: solid 2px rgb(212, 170, 92);
+    padding: 1rem;
     margin-bottom: 1.5em;
     border-radius: 10px;
-    width: 30em;
+    width: 35%;
+}
+
+#githubLogo, #linkedinLogo {
+    width: 7em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    
 }
 
 h1 { 
@@ -85,21 +93,6 @@ h1 {
     width: 2em;
     margin-right: 0.3em;
     border: solid 2px rgb(212, 170, 92);
-}
-
-#linkedinLogo {
-    width: 7em;
-    margin-left: 2em;
-}
-
-#githubLogo {
-    width: 6em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
-
-#fiverrLogo {
-    width: 7em;
 }
 
 a:link {
@@ -123,7 +116,7 @@ a:hover {
     background-color: silver;
     color: black;
     font-size: 1.1em;
-    border: solid 1px rgb(212, 170, 92);
+    border: solid 1px white;
     border-radius: 10px;
     text-align: center;
     width: 8em;
