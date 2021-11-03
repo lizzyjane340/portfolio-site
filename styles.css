@@ -69,8 +69,8 @@ a:hover {
 }
 
 #title2 {
-    background: #a0b9b2;
-    border: solid 2px rgb(212, 170, 92);
+    background: #96BEB4;
+    border: solid 2px #96BEB4;;
     padding: 1rem;
     margin-bottom: 1.5em;
     border-radius: 10px;
@@ -85,14 +85,16 @@ a:hover {
 }
 
 h1 { 
-    color:  white;
+    color: rgb(212, 170, 92);
     font-size: 4em;
 }
+
+a { color: #96BEB4;}
 
 #shot {
     width: 2em;
     margin-right: 0.3em;
-    border: solid 2px rgb(212, 170, 92);
+    border: solid 2px #96BEB4;;
 }
 
 a:link {
@@ -116,7 +118,7 @@ a:hover {
     background-color: silver;
     color: black;
     font-size: 1.1em;
-    border: solid 1px white;
+    border: solid 2px rgb(212, 170, 92);
     border-radius: 10px;
     text-align: center;
     width: 8em;
@@ -159,7 +161,7 @@ a:hover {
     font-family: 'Source Sans Pro', sans-serif;
     border: solid 1px rgb(212, 170, 92);
     border-radius: 10px;
-    background: #a0b9b2;
+    background: #96BEB4;
     color: black;
     font-size: 1.1em;
     padding: 1em;
