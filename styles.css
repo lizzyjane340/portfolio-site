@@ -2,14 +2,6 @@ html { font-size: calc(0.8em + 0.7vw) }
 button { font-size: inherit }
 input { font-size: inherit }
 
-html, body {
-    overflow: auto;
-}
-
-a {
-    font-size: 0.9em;
-}
-
 .cert {
     border: solid 2px gray;
     border-radius: 5px;
@@ -21,6 +13,7 @@ a {
     overflow: hidden;
     padding-top: 56.25%;
     margin-top: 1.5em;
+    border-radius: 5px;
     height: 80vh;
     width: 100%;
 }
@@ -63,11 +56,11 @@ h2 {
 }
 
 #title {
-    background-image: linear-gradient(to left, silver, black);
+    background: #45605d;
     color: black;
     margin-bottom: 0.3em;
     font-size: 1.2em;
-    height: 6em;
+    height: 5em;
     cursor: pointer;
 }
 
@@ -76,27 +69,23 @@ a:hover {
 }
 
 #title2 {
-    background-image: linear-gradient(to left, whitesmoke, black);
+    background: #a0b9b2;
+    border: solid 2px rgb(212, 170, 92);
     margin-bottom: 1.5em;
     border-radius: 10px;
+    width: 30em;
+}
+
+h1 { 
+    color:  white;
+    font-size: 4em;
 }
 
 #shot {
     width: 2em;
     margin-right: 0.3em;
-    border: solid 3px silver;
+    border: solid 2px rgb(212, 170, 92);
 }
-
-#text-dark {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 1.8em;
-    color: black;
-    margin-left: 0.5em;
-    margin-top: 0.5em;
-    height: 1em;
-}
-
 
 #linkedinLogo {
     width: 7em;
@@ -114,7 +103,7 @@ a:hover {
 }
 
 a:link {
-    color: white;
+    color: silver;
 }
 
 a:hover {
@@ -132,9 +121,9 @@ a:hover {
 #button {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: silver;
-    color: black !important;
+    color: black;
     font-size: 1.1em;
-    border: solid 3px gray;
+    border: solid 1px rgb(212, 170, 92);
     border-radius: 10px;
     text-align: center;
     width: 8em;
@@ -146,6 +135,7 @@ a:hover {
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
+    border: solid 2px #7dad9f;
     border-radius: 10px;
     color: white;
     font-size: 0.8em;
@@ -162,6 +152,10 @@ a:hover {
     margin-top: 1em;
 }
 
+#text-dark {
+    color: black;
+}
+
 #sudoku-screenshot {
     height: 12em;
     width: 35em;
@@ -169,21 +163,26 @@ a:hover {
 
 #form {
     font-family: 'Source Sans Pro', sans-serif;
-    border: 1px solid silver;
+    border: solid 2px #7dad9f;
     border-radius: 10px;
-    background-image: linear-gradient(to left, silver, black);
-    color: white;
-    font-size: 1em;
+    background: #a0b9b2;
+    color: black;
+    font-size: 1.1em;
     padding: 1em;
     text-align: center;
 }
 
+#emailInput, #messageInput {
+    border: solid 2px #7dad9f;
+    border-radius: 5px;
+}
+
 #submit {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: silver;
-    color: black !important;
-    font-size: 0.8em;
-    border: solid 3px gray;
+    background-color: white;
+    color: black;
+    font-size: 0.9em;
+    border: solid 1px black;
     border-radius: 10px;
     text-align: center;
     width: 5em;
@@ -202,4 +201,3 @@ a:hover {
     margin-left: 0.7em;
     margin-right: 0.5em;
 }
-
