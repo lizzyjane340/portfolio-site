@@ -2,24 +2,19 @@ html { font-size: calc(0.8em + 0.7vw) }
 button { font-size: inherit }
 input { font-size: inherit }
 
-.cert {
-    border: solid 2px gray;
-    border-radius: 5px;
-}
-
 /* TODO add media query for iframe height ONLY */
 #iframe-container {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
-    margin-top: 1.5em;
+    margin-top: 2rem;
     border-radius: 5px;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
 }
 
 iframe {
-    height: 100%;
+    height: 70vh;
     width: 100%;
     top: 0;
     left: 0;
@@ -40,15 +35,16 @@ iframe {
 }
 
 body {
-    background-image: url('https://lizzyjane340.github.io/portfolio-site/images/background_leaves.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color:#5D969E;
+    background-image:
+    radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
     background-attachment: fixed;
     padding: 2px;
-}
-
-h2 {
-    margin-left: 1em;
 }
 
 #title-div {
@@ -56,44 +52,35 @@ h2 {
     margin-top: 1em;
 }
 
-#title {
-    background: #45605d;
-    color: black;
-    margin-bottom: 0.3em;
-    font-size: 1.2em;
-    height: 5em;
-    cursor: pointer;
-}
-
 a:hover {
     cursor: pointer;
 }
 
-a { color: rgb(212, 170, 92);}
+a { color: #a6c4c2;}
 
-#title2 {
-    background: #96BEB4;
+#links-div {
+    background: #7EADAB;
     border: solid 1px white;
     padding: 1rem;
-    margin-bottom: 1.5em;
-    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
     width: 35%;
 }
 
 #githubLogo, #linkedinLogo {
-    width: 7em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;  
+    width: 5.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;  
 }
 
 h1 { 
-    color: rgb(201, 175, 108);
-    font-size: 4em;
+    color: white;
+    font-size: 3rem;
 }
 
 #shot {
-    width: 2em;
-    margin-right: 0.3em;
+    width: 6rem;
+    margin-right: 3%;
     border: solid 1px white;
 }
 
@@ -102,47 +89,32 @@ a:hover {
 }
 
 #main-block {
-    font-size: 1em;
-    padding-top: 1em;
+    font-size: 0.9rem;
+    padding-top: 1rem;
     text-align: center;
-    margin-top: 0.5em;
-    margin-bottom: 2em;
-}
-
-#button {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #BEB1C0;
-    color: black;
-    font-size: 1.1em;
-    border: solid 2px rgb(201, 175, 108);
-    border-radius: 10px;
-    text-align: center;
-    width: 8em;
-    height: 2.5em;
-    margin: 0.2em;
-    margin-bottom: 1em;
+    margin-top: 0.5rem;
 }
 
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
-    border: solid 1px white;
-    border-radius: 10px;
+    border: solid 2px white;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: normal !important;
     text-align: center;
-    padding: 0.5em;
-    padding-bottom: 3em;
-    margin-bottom: 1em;
+    padding: 0.5rem;
+    padding-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 #project-desc {
-    padding-right: 1em;
-    padding-left: 4em;
-    padding-top: 2em;
-    margin-top: 1em;
-    padding-bottom: 2em;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.cert {
+    border: solid 2px white;
 }
 
 #text-dark {
@@ -155,42 +127,32 @@ a:hover {
 }
 
 #sudoku-div {
-    padding-bottom: 3em;
+    padding-bottom: 3rem;
 }
 
 #form {
     font-family: 'Source Sans Pro', sans-serif;
     border: solid 1px white;
-    border-radius: 10px;
-    background: #96BEB4;
-    color: black;
-    font-size: 1.1em;
-    padding: 1em;
-    text-align: center;
-}
-
-#emailInput, #messageInput {
-    border: solid 2px #7dad9f;
     border-radius: 5px;
+    background: #7EADAB;
+    color: black;
+    font-size: 0.9rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 #submit {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #BEB1C0;
-    color: black;
-    font-size: 0.9em;
-    border: solid 1px white;
-    border-radius: 10px;
-    text-align: center;
-    width: 5em;
-    height: 2.5em;
-    margin: 0.1em;
-    margin-bottom: 0.5em;
+    border: solid 1px black;
+}
+
+#emailInput, #messageInput {
+    border: solid 1px black;
+    border-radius: 5px;
 }
 
 #project-icon {
-    width: 1.5em;
-    margin: 0.5em;
+    width: 5%;
+    margin: 0.5rem;
 }
 
 #index-icon {
@@ -200,20 +162,20 @@ a:hover {
 }
 
 .footer {
-    background: #96BEB4;
+    background: #7EADAB;
     border-top: solid 1px white;
     border-bottom: solid 1px white;
-    padding: 0.5em;
+    padding-top: 0.2rem;
     width: 100%;
+    height: 2rem;
     z-index: 2;
     font-size: 0.8rem;
     position: absolute;
     left: 0;
-    height: 50px;
 }
 
 .footer p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.9rem;
-    color: #35404A;  
+    color: black;
 }
