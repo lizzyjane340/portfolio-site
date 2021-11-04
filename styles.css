@@ -47,6 +47,13 @@ body {
     padding: 2px;
 }
 
+.btn {
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    
+}
+
 #title-div {
     padding: 0.5em;
     margin-top: 1em;
@@ -56,7 +63,7 @@ a:hover {
     cursor: pointer;
 }
 
-a { color: #a6c4c2;}
+a { color: #B2923F;}
 
 #links-div {
     background: #7EADAB;
@@ -67,21 +74,23 @@ a { color: #a6c4c2;}
     width: 35%;
 }
 
-#githubLogo, #linkedinLogo {
-    width: 5.5rem;
+#githubLogo {
+    width: 7rem;
     margin-left: 1rem;
     margin-right: 1rem;  
 }
 
+#linkedinLogo { width: 2.5rem;}
+
 h1 { 
     color: white;
     font-size: 3rem;
+    font-weight: bold;
 }
 
-#shot {
-    width: 6rem;
-    margin-right: 3%;
-    border: solid 1px white;
+#shot { 
+    width: 5rem;
+    margin-right: 0.7rem;
 }
 
 a:hover {
@@ -98,7 +107,6 @@ a:hover {
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
-    border: solid 2px white;
     color: white;
     font-size: 0.8rem;
     font-weight: normal !important;
@@ -128,17 +136,24 @@ a:hover {
 
 #sudoku-div {
     padding-bottom: 3rem;
+    background: white;
+    border: solid 1px silver;
 }
 
 #form {
     font-family: 'Source Sans Pro', sans-serif;
     border: solid 1px white;
     border-radius: 5px;
-    background: #7EADAB;
+    background: silver;
     color: black;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding: 1rem;
     text-align: center;
+}
+
+label { 
+    background: white;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
 
 #submit {
@@ -162,7 +177,7 @@ a:hover {
 }
 
 .footer {
-    background: #7EADAB;
+    background: black;
     border-top: solid 1px white;
     border-bottom: solid 1px white;
     padding-top: 0.2rem;
@@ -177,5 +192,5 @@ a:hover {
 .footer p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.9rem;
-    color: black;
+    color: white
 }
