@@ -9,12 +9,12 @@ input { font-size: inherit }
     padding-top: 56.25%;
     margin-top: 2rem;
     border-radius: 5px;
-    height: 70vh;
-    width: 100%;
+    height: 50vh;
+    width: 80%;
 }
 
 iframe {
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     top: 0;
     left: 0;
@@ -51,12 +51,7 @@ body {
     font-size: 0.8rem;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
-    
-}
-
-#title-div {
-    padding: 0.5em;
-    margin-top: 1em;
+    border: solid 1px rgb(72, 148, 158);
 }
 
 a:hover {
@@ -65,26 +60,17 @@ a:hover {
 
 a { color: #B2923F;}
 
-#links-div {
-    background: #7EADAB;
-    border: solid 1px white;
-    padding: 1rem;
-    margin-bottom: 0.5rem;
-    border-radius: 5px;
-    width: 35%;
-}
-
 #githubLogo {
     width: 7rem;
     margin-left: 1rem;
     margin-right: 1rem;  
 }
 
-#linkedinLogo { width: 2.5rem;}
+#linkedinLogo { width: 3rem;}
 
 h1 { 
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -107,13 +93,15 @@ a:hover {
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
+    border-top: solid 2px rgb(72, 148, 158);
+    border-bottom: solid 2px rgb(72, 148, 158);
     color: white;
     font-size: 0.8rem;
     font-weight: normal !important;
+    margin-bottom: 2rem;
+    height: 100%;
     text-align: center;
-    padding: 0.5rem;
-    padding-bottom: 3rem;
-    margin-bottom: 1rem;
+    padding: 2rem;
 }
 
 #project-desc {
@@ -129,22 +117,22 @@ a:hover {
     color: black;
 }
 
-#sudoku-screenshot {
-    height: 30%;
-    width: 100%;
+#sudoku-div {
+    background: white;
+    padding: 0.5rem;
+    border: solid 1px silver;
 }
 
-#sudoku-div {
-    padding-bottom: 3rem;
-    background: white;
-    border: solid 1px silver;
+#sudoku-screenshot {
+    height: 25%;
+    width: 100%;
 }
 
 #form {
     font-family: 'Source Sans Pro', sans-serif;
     border: solid 1px white;
     border-radius: 5px;
-    background: silver;
+    background: rgb(72, 148, 158);
     color: black;
     font-size: 0.8rem;
     padding: 1rem;

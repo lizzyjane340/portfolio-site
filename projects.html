@@ -27,21 +27,21 @@
 
 <body id="body">
     <div class="container-fluid col-md-12" id="main-block">
-        <div class="row justify-content-center align-content-center text-center">
-            <div class="container-fluid col-md-10 justify-content-center align-items-center" id="content-div"><br>
-                <div class="col-md-12 justify-content-center align-items-center" id="title-div">
-                    <h1 onclick="location.href='index.html';"><img src="images/head_shot2.jpeg" class="img-fluid rounded-circle" id="shot" alt="Photo of Lizzy Jane Ferris">Lizzy Jane Ferris</h1><br>
-                    <p>
-                        <a href="https://www.linkedin.com/in/lizzy-jane-ferris-5bb057202/" target="_blank"><img src="images/LinkedIn-White-40.png" class="img-fluid" id="linkedinLogo" alt="Linkedin Link Logo"/></a>
-                        <a href="http://www.github.com/lizzyjane340" target="_blank"><img src="images/GitHub_Logo.png" class="img-fluid" id="githubLogo" alt="Github Link Logo"/></a>            
-                    </p>
-                <br>
+        <div class="container-fluid col-md-10 justify-content-center align-items-center" id="content-div"><br>
+            <h1 onclick="location.href='index.html';"><img src="images/head_shot2.jpeg" class="img-fluid rounded-circle" id="shot" alt="Photo of Lizzy Jane Ferris">Lizzy Jane Ferris</h1><br>
+            <p>
+                <a href="https://www.linkedin.com/in/lizzy-jane-ferris-5bb057202/" target="_blank"><img src="images/LinkedIn-White-40.png" class="img-fluid" id="linkedinLogo" alt="Linkedin Link Logo"/></a>
+                <a href="http://www.github.com/lizzyjane340" target="_blank"><img src="images/GitHub_Logo.png" class="img-fluid" id="githubLogo" alt="Github Link Logo"/></a>            
+            </p>
+            <br>
 <!-- buttons for page navigation-->
-                <button type="button" class="btn btn-light" onclick="location.href = 'projects.html';">Projects</button>
-                <button type="button" class="btn btn-light" onclick="location.href = 'edu.html';">Education</button>
-                <button type="button" class="btn btn-light" onclick="location.href = 'contact.html';">Contact</button>
+            <button type="button" class="btn btn-light" onclick="location.href = 'index.html';">About</button>
+            <button type="button" class="btn btn-light" onclick="location.href = 'edu.html';">Education</button>
+            <button type="button" class="btn btn-light" onclick="location.href = 'contact.html';">Contact</button>
             <br>
         </div>
+        <br>
+    <div class="container-fluid col-md-10 justify-content-center align-items-center" id="content-div"><br>
 <!--macha library project information-->
         <div class="row justify-content-between align-items-between text-center">
             <div class="container-fluid col-md-6 justify-content-center align-items-center" id="project-desc">
@@ -61,7 +61,7 @@
 <!--macha library iframe-->
             <div class="container-fluid col-md-4 justify-content-center embed-responsive embed-responsive-16by9" id="iframe-container">
                 <br><br>
-                <iframe class="embed-responsive-item" src="https://machalibrary.pythonanywhere.com" title="Macha Library Web Application" allowfullscreen sandbox/>
+                <iframe class="embed-responsive-item" src="https://machalibrary.pythonanywhere.com" title="Macha Library Web Application" allowfullscreen sandbox="allow-same-origin, allow-scripts"/>
 <!--fallback image if iframe not loaded-->  
                     <img src="images/machalibrary4.jpeg" class="img-fluid" alt="Macha Library mobile screenshot" id="iframe-fallback-macha"/>
                 </iframe>
@@ -87,9 +87,9 @@
 <!--sudoku project images-->  
                 <div class="container-fluid col-md-4 justify-content-right center align-items-right" id="sudoku-div">
                     <br><br>
-                    <img src="images/sudoku1.jpeg" class="img-fluid" alt="Sudoku project screenshot" id="sudoku-screenshot"/><br><br>
-                    <img src="images/sudoku3.jpeg" class="img-fluid" alt="Sudoku project screenshot" id="sudoku-screenshot"/><br><br>
-                    <img src="images/sudoku2.jpeg" class="img-fluid" alt="Sudoku project screenshot" id="sudoku-screenshot"/>               
+                    <img src="images/sudoku1.jpeg" class="img-fluid responsive" alt="Sudoku project screenshot" id="sudoku-screenshot"/><br><br>
+                    <img src="images/sudoku3.jpeg" class="img-fluid responsive" alt="Sudoku project screenshot" id="sudoku-screenshot"/><br><br>
+                    <img src="images/sudoku2.jpeg" class="img-fluid responsive" alt="Sudoku project screenshot" id="sudoku-screenshot"/>               
                 </div>
                 <div class="container-fluid col-md-1"><span id="text-dark">>></span></div>
             </div>
