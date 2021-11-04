@@ -93,7 +93,7 @@ a:hover {
 #content-div {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
-    border-top: solid 2px rgb(72, 148, 158);
+    border-top: solid 2px rgb(91, 155, 163);
     border-bottom: solid 2px rgb(72, 148, 158);
     color: white;
     font-size: 0.8rem;
@@ -101,7 +101,8 @@ a:hover {
     margin-bottom: 2rem;
     height: 100%;
     text-align: center;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #project-desc {
